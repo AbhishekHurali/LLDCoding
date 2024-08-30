@@ -12,7 +12,7 @@ public class Client {
         //Open the Connection
         con = DriverManager.getConnection("jdbc:mysql://localhost:3306/abhidb","root","scaler#abhi19@mysql");
         //System.out.println(con);
-        //Prepare SQl Statement
+        //Prepare SQL Statement
         String SQL = "insert into stud values(1921,'AbhiJaya',100)";
         //Create JDBC statement
         st = con.createStatement();
